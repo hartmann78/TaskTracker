@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Manager manager = new Manager();
         Scanner scanner = new Scanner(System.in);
+        Manager manager = new Manager();
         System.out.println("Трекер задач");
 
         while (true) {
